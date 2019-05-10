@@ -1,5 +1,5 @@
-export { default as Noticias } from './noticias'
-export { default as Categorias } from './categorias'
+export { default as Noticias } from './Noticias'
+export { default as Categorias } from './Categorias'
 
 //noticias: noticiasReducer,
  // categorias: categoriasReducer,

@@ -6,7 +6,7 @@ import { createStore, combineReducers } from 'redux';
 import App from './App';
 import './index.css';
 import * as reducers from './reducers'
-import registerServiceWorker from './serviceWorker'
+import * as serviceWorker from './serviceWorker'
 
 const store = createStore(combineReducers({
   ...reducers,
@@ -17,4 +17,4 @@ ReactDOM.render(
   <Provider store={store}>
     <App />
   </Provider>, document.getElementById('root'));
-  registerServiceWorker();
+  serviceWorker.unregister();

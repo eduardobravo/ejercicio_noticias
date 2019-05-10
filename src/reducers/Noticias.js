@@ -5,7 +5,7 @@ const ADD_NEWS = 'category/add'
  * nombre
  * category_id
  */
-const addNews = payload => ({
+export const addNews = payload => ({
   type: ADD_NEWS,
   payload: {
     ...payload,
