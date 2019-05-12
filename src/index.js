@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { formReducer } from 'react-redux';
+import { reducer as formReducer } from 'redux-form';
 import { createStore, combineReducers } from 'redux';
 import App from './App';
 import './index.css';

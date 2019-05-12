@@ -1,8 +1,8 @@
-const ADD_NEWS = 'category/add'
+const ADD_NEWS = 'news/add'
 
 /**
  * id
- * nombre
+ * name
  * category_id
  */
 export const addNews = payload => ({

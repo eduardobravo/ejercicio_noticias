@@ -12,7 +12,7 @@ export default class News extends Component{
     return (
       <div>
       <NewsForm onSubmit={this.handleSubmit} />
-      <NewsList categories={news} />
+      <NewsList news={news} />
       </div>
     );
   }

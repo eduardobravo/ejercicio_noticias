@@ -9,7 +9,7 @@ export default class CategoryList extends Component{
     const { categories } = this.props
     return(
       <ul>
-        {categories.map(x => <li onClick={this.handleClick(x.id)} key={x.id}>(x.name)</li>)}
+        {categories.map(x => <li onClick={this.handleClick(x.id)} key={x.id}>{x.name}</li>)}
       </ul>
     )
   }

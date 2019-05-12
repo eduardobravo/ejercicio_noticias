@@ -5,7 +5,7 @@ export default class NewsList extends Component{
     const { news } = this.props
     return(
       <ul>
-        {news.map(x => <li key={x.id}>(x.name)</li>)}
+        {news.map(x => <li key={x.id}>{x.name}</li>)}
       </ul>
     )
   }

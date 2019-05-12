@@ -19,7 +19,7 @@ export const selectCategory = payload =>({
 })
 
 const initialState ={
-  data: [{id: 1, name: 'Defecto'}],
+  data: [{id: 1, name: 'Por Defecto'}],
   selected: 1,
 }
 
